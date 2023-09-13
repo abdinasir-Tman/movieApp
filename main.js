@@ -1,5 +1,5 @@
 let api_key = "cde69b8ab4588148413d2dbdc4565071";
-let movie_url = "https://api.themoviedb.org/3/movie/popular?"
+let movie_url = "https://api.themoviedb.org/3/movie/now_playing?"
 let image = `https://image.tmdb.org/t/p/w500/`;
 $("#cancel").click( () =>{
     $("#modal").addClass("hidden");
