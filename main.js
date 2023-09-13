@@ -34,7 +34,7 @@ const displayDom = (request) => {
     })
 }
 const popular_movie_db = async () => {
-    const request = await fetch(`${movie_url}api_key=${api_key}&page=1`);
+    const request = await fetch(`${movie_url}api_key=${api_key}`);
     const {results}  = await request.json()
     // console.log(results)
     displayDom(results)
